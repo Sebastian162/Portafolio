@@ -1,0 +1,90 @@
+body{
+    background: url('../img/perry-kibler-ST8P_fJj7cY-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#global{
+    width: 800px;
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px white;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+}
+navbar ul{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+}
+navbar ul li{
+    list-style: none;
+}
+
+navbar ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    color: white;
+    padding: 7px 0;
+}
+#slider img{
+    width: 100%;
+    height: 400px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#sidebar{
+    width: 50%;
+}
+#sidebar #about img{
+    width: 100%;
+    /* height: 380px; */
+}
+#sidebar #about p{
+    text-align: justify;
+}
+#sidebar #login h4{
+    margin: 20px 0;
+    text-align: center;
+}
+#sidebar #login input{
+    margin: 10px 0;
+}
+
+#sidebar #login input[type="submit"]{
+    width: 100%;
+}
+
+#content #posts .post{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.post h2{
+    margin: 0;
+}
+.post p{
+    text-align: justify;
+}
+
